@@ -81,8 +81,23 @@ httprint -h 172.17.52.201 -s /usr/share/httprint/signatures.txt -P0 |more
 
 ## Tracing the Location
 ### TCP Traceroute:
+````
 sudo traceroute -T www.saveetha.ac.in
-## Webserver Fingerprinting:
-### Netcat:
+````
+## Output:
+![238302079-a4c85efc-4084-4513-895e-325f5f53f5f7](https://github.com/lokeshrahulv/InformationGathering/assets/118423842/77712673-0cbb-4e33-bf91-3e8c96137b64)
+### UDP Traceroute:
+```
+sudo traceroute -U www.saveetha.ac.in
+```
+## Output:
+![238302091-8c7b84b9-8045-45c3-ba6a-f2af47f40e5e](https://github.com/lokeshrahulv/InformationGathering/assets/118423842/ce8b6604-a2ba-42cd-a12f-09f923fd2bb1)
+### ICMP Traceroute:
+```
+sudo traceroute  www.saveetha.ac.in
+```
+## Output:
+![238302109-00a45edd-a2df-4cc6-858c-87d5b4a6b659](https://github.com/lokeshrahulv/InformationGathering/assets/118423842/90f240aa-ae2e-4624-9720-ac83d41e88e5)
+
 ## RESULT:
 The information gathering techniques tools/procedure were  identified successfully
